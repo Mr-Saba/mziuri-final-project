@@ -1,0 +1,85 @@
+.section1 {
+    width: 85%;
+    height: 75vh;
+    margin: 0 auto;
+    display: flex;
+
+    .createAccContainer {
+        width: 50%;
+        height: 100%;
+        background-color: $primary-color;
+        @include center-flex;
+        flex-direction: column;
+        text-align: center;
+        color: $secondary-color;
+        padding: 0 80px;
+        gap: 30px;
+
+        h2 {
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            padding: 10px 40px;
+            border: 1px solid white;
+            border-radius: 20px;
+            color: white;
+            background-color: transparent;
+            @include transition(0.5s);
+            cursor: pointer;
+
+            &:hover {
+                background-color: $hover-background-color;
+                color: $hover-text-color;
+            }
+        }
+    }
+    .loginContainer {
+        width: 50%;
+        height: 100%;
+        @include column-flex;
+        align-items: start;
+        justify-content: center;
+        padding: 0 60px;
+        gap: 70px;
+        h3 {
+            font-size: 30px;
+            font-weight: 900;
+        }
+        form {
+            width: 70%;
+            @include column-flex;
+            gap: 20px;
+            input {
+                border: none;
+                border-bottom: 1px solid $input-border-color;
+                padding: 5px 0;
+                outline: none;
+            }
+            .chekbox {
+                display: flex;
+                gap: 10px;
+                p {
+                    color: $text-color;
+                }
+            }
+        }
+        button {
+            background-color: $button-background-color;
+            border: none;
+            padding: 12px 0;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+        }
+        a {
+            color: $text-color;
+            text-align: end;
+        }
+    }
+}

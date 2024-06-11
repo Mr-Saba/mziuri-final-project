@@ -1,0 +1,37 @@
+<div class="productContainer">
+    <div class="imagesContainer">
+        <div class="mainImage">
+            <img src="<%= product.imageSrc[0] %>" alt="">
+            <button>Go Fullscreen</button>
+        </div>
+        <div class="lastImages">
+            <% for (let i = 1; i < product.imageSrc.length; i++) { %>
+                <img class="<%= i === 1 ? 'active' : '' %>" src="<%= product.imageSrc[i] %>" alt="">
+            <% } %>
+        </div>
+    </div>
+
+    <div class="productInfoContainer">
+        <p class="nextProduct">Previous | Next</p>
+        <p class="title"><%= product.title %></p>
+        <p class="about"><%= product.about %></p>
+        <div class="categoryDiv"><p>Category:</p> <p class="category">  <%= product.category %> </p></div>
+
+        <% if (product.stock > 0) { %>
+            <div class="stockDiv"><p>Avalibility:</p> <p class="stock">  <%= product.stock %> </p></div>
+        <%} else { %>
+            <p class="stock">Avalibility : Is't In Stock </p> 
+        <% } %>
+
+
+        <p class="price">$<%= product.price %></p>    
+        <div class="addToCart">
+            <button>Add To Cart</button>
+            <i class="fa-regular fa-heart"></i>
+        </div>
+
+    </div>
+</div> 
+
+
+ 

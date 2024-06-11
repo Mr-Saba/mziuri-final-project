@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "title": "Quartz Belt Watch",
+        "price": 100,
+        "imageSrc": [
+            "../assets/product3.webp",
+            "../assets/product3.webp",
+            "../assets/product1.webp",
+            "../assets/product2.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 8,
+        "color": "colorful"
+    },
+    {
+        "id": 2,
+        "title": "Quartz Belt Watch",
+        "price": 150,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product3.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 15,
+        "color": "green"
+    },
+    {
+        "id": 3,
+        "title": "Quartz Belt Watch",
+        "price": 300,
+        "imageSrc": [
+            "../assets/product3.webp",
+            "../assets/product3.webp",
+            "../assets/product1.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 20,
+        "color": "colorful"
+    },
+    {
+        "id": 4,
+        "title": "Quartz Belt Watch",
+        "price": 400,
+        "imageSrc": [
+            "../assets/product2.webp",
+            "../assets/product2.webp",
+            "../assets/product3.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 12,
+        "color": "orange"
+    },
+    {
+        "id": 5,
+        "title": "Quartz Belt Watch",
+        "price": 50,
+        "imageSrc": [
+            "../assets/product3.webp",
+            "../assets/product3.webp",
+            "../assets/product2.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 18,
+        "color": "colorful"
+    },
+    {
+        "id": 6,
+        "title": "Quartz Belt Watch",
+        "price": 90,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product3.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 10,
+        "color": "green"
+    },
+    {
+        "id": 7,
+        "title": "Quartz Belt Watch",
+        "price": 500,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product2.webp",
+            "../assets/product3.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 16,
+        "color": "green"
+    },
+    {
+        "id": 8,
+        "title": "Quartz Belt Watch",
+        "price": 550,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product2.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 14,
+        "color": "green"
+    },
+    {
+        "id": 9,
+        "title": "Quartz Belt Watch",
+        "price": 310,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product2.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 22,
+        "color": "green"
+    },
+    {
+        "id": 10,
+        "title": "Quartz Belt Watch",
+        "price": 580,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product3.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 11,
+        "color": "green"
+    },
+    {
+        "id": 11,
+        "title": "Quartz Belt Watch",
+        "price": 600,
+        "imageSrc": [
+            "../assets/product2.webp",
+            "../assets/product2.webp",
+            "../assets/product3.webp",
+            "../assets/product1.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 17,
+        "color": "orange"
+    },
+    {
+        "id": 12,
+        "title": "Quartz Belt Watch",
+        "price": 700,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product3.webp",
+            "../assets/product2.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 19,
+        "color": "green"
+    },
+    {
+        "id": 13,
+        "title": "Quartz Belt Watch",
+        "price": 500,
+        "imageSrc": [
+            "../assets/product2.webp",
+            "../assets/product2.webp",
+            "../assets/product1.webp",
+            "../assets/product3.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 22,
+        "color": "orange"
+    },
+    {
+        "id": 14,
+        "title": "Quartz Belt Watch",
+        "price": 100,
+        "imageSrc": [
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product1.webp",
+            "../assets/product2.webp"
+        ],
+        "about": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue.",
+        "category": "Household",
+        "stock": 15,
+        "color": "green"
+    }
+]

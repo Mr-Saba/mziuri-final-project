@@ -1,0 +1,30 @@
+header {
+    @include space-between-align-center;
+    padding: 0 7vw 0 7vw;
+    height: 6vw;
+    margin-bottom: 3vw;
+
+    nav {
+        display: flex;
+        gap: 5vw;
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+.iconContainer {
+    display: flex;
+    gap: 2vw;
+}
+
+
+.webName {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+

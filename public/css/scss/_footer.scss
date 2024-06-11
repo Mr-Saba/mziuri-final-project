@@ -1,0 +1,37 @@
+footer {
+    padding: 70px 50px;
+}
+
+
+.categoriesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+    
+}
+
+.categorieFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vw;
+
+
+    a {
+        color: gray;
+    }
+}
+
+.copyright {
+    color: grey;
+}
+
+.copyrightAndSocialsContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socialsContainer {
+    display: flex;
+    gap: 1vw;
+}

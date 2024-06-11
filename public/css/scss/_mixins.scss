@@ -1,0 +1,22 @@
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+@mixin center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin transition($duration) {
+    transition-duration: $duration;
+}
+
+@mixin space-between-align-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,92 @@
+.foundProducts {
+    text-align: center;
+}
+
+#productsPage {
+    width: 100%;
+    display: flex;
+
+    .productsContainer {
+        padding: 30px;
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        column-gap: 3.3%;
+        row-gap: 19px;
+
+        &>.product {
+            width: 30%;
+            height: auto;
+            @include column-flex;
+
+            & img {
+                height: 60%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+
+            &>.descriptionContainer {
+                padding: 30px;
+                @include column-flex;
+                gap: 19px;
+            }
+
+            & .title {
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+
+    }
+
+    .filtersContainer {
+        & > .colorFilter {
+            margin: 18px 0px;
+            p {
+                transition: 200ms;
+                font-size: 18px;
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.8
+                }
+            }
+        }
+        form > div {
+            margin-top: 19px; 
+            &:last-of-type {
+                margin-bottom: 19px;
+            }
+        }
+    }
+
+
+}
+.pagesContainer {
+    @include center-flex;
+    gap: 13px;
+    font-size: 19px;
+
+    &>div {
+        cursor: pointer;
+        background-color: rgb(224, 224, 224);
+        padding: 4px;
+        transition: 199ms;
+
+        &:hover {
+            opacity: .8;
+        }
+
+        &.disabled {
+            pointer-events: none;
+            opacity: .5;
+        }
+
+        &.active {
+            font-weight: bold;
+            pointer-events: none;
+        }
+    }
+}

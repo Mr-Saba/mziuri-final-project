@@ -1,0 +1,64 @@
+
+<p class="foundProducts">
+    <span style="color: red;"><%= totalProductsLength %></span>
+    products found
+</p>
+<div id="productsPage">
+    <div class="productsContainer">
+        <% products.forEach(product => { %>
+            <div class="product">
+                <a href="/products/<%= product.id %>">
+                    <img src="<%= product.imageSrc[0] %>" alt="">
+                </a>
+                <div class="descriptionContainer">
+                    <p class="title"><%= product.title %></p>
+                    <p class="price"><%= product.price %>$</p>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+    <div class="filtersContainer">
+        <h1>Filters Container</h1>
+        <form action="">
+            <div class="colorFilter">
+                <h4>Choose Color:</h4>
+                <div>
+                    <label for="green">green</label>
+                    <input type="checkbox" name="color" id="green" value="green" />
+                </div>
+                <div>
+                    <label for="orange">orange</label>
+                    <input type="checkbox" name="color" id="orange" value="orange"/>
+                </div>
+                <div>
+                    <label for="colorful">colorful</label>
+                    <input type="checkbox" name="color" id="colorful" value="colorful" />
+                </div>
+            </div>
+            <div class="priceFilter">
+                <h4>Choose Price:</h4>
+                <div>
+                    <label for="min">min:</label>
+                    <input type="number" id="min" placeholder="0" value="">
+                </div>
+                <div>
+                    <label for="max">max:</label>
+                    <input type="number" id="max" placeholder="999" value="">
+                </div>
+            </div>
+            <button type="submit" class="submitButton">Apply</button>
+            <button type="reset" class="resetFiltersButton">Reset Filters</button>
+        </form>
+
+    </div>
+</div>
+
+<div class="pagesContainer">
+    <div class="<%= activePage === 1 ? 'disabled' : '' %>"><a href="/products/pageIndex=<%= activePage - 1 %>"><<</a></div>
+    <% for(let i = 1; i <= productsPageLength; i++) { %>
+        <div class="<%= activePage === i ? 'active' : '' %>">
+            <a href="/products/pageIndex=<%= i %>"><%= i %></a>
+        </div>
+    <% } %>
+    <div class="<%= activePage === productsPageLength ? 'disabled' : '' %>"><a href="/products/pageIndex=<%= activePage + 1 %>">>></a></div>
+</div>
